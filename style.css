@@ -1,0 +1,46 @@
+body{
+    background-image: radial-gradient(black, cornsilk);
+}
+.container {
+    border-radius: 150px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    background-color: cornsilk;
+    font-family: cursive;
+}
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+.resultText {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.coinDisplay{
+    text-align: center;
+}
+img{
+    width: 300px;
+    border-radius: 50px;
+}
+.btn{
+    font-size: 1.35rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: dimgray;
+    color: white;
+    padding: 5px 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 80%;
+}
